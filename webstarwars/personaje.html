@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <script src="js/starwarsapi.js" defer></script>
+   <script src="js/personaje.js" defer></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+   <title>Star Wars</title>
+</head>
+
+
+<body>
+   <!-- Contenedor div de la cabecera -->
+   <div class="cabecera">
+       <!-- Logo con enlace a la página "peliculas.html" -->
+       <a href="peliculas.html">
+           <img class="logo" src="imagenes/logo.png">
+       </a>
+   </div>
+
+
+   <!-- Sección donde se mostrarán los datos del personaje -->
+   <div id="personaje" class="datosbasicos">
+       <!-- Elemento de carga que se muestra mientras los datos del personaje se obtienen -->
+       <div class="loading">
+           <img src="imagenes/cargando.gif"> <!-- Imagen animada de carga -->
+       </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+INDEX.HTML
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <script src="js/index.js" defer></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+   <title>Star Wars</title>
+</head>
+<body>
+   <!-- Contenedor principal que agrupa el logo, el título y el formulario -->
+   <div class="bloque" id="bloquepeliculas">
+      
+       <!-- Imagen del logo de Star Wars -->
+       <img class="logo" src="imagenes/logo.png">
+       <h2>Películas</h2>
+      
+       <!-- Contenedor div y id para la lista de películas -->
+       <div id="listapeliculas" class="listado">
+          
+           <!-- Formulario de inicio de sesión -->
+           <form id="loginForm">
+              
+               <!-- Campo para ingresar el usuario -->
+               <label for="username">Usuario:</label>
+               <input type="text" id="username" name="username" required>
+               <br>
+              
+               <!-- Campo para ingresar la contraseña -->
+               <label for="password">Contraseña:</label>
+               <input type="password" id="password" name="password" required>
+               <br>
+
+
+               <!-- Botón para iniciar sesión -->
+               <button type="button" id="loginButton">Entrar</button>
+              
+           </form>
+       </div>
+   </div>
+</body>
+</html>

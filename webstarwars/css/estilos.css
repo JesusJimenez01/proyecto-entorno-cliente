@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.bloque {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px red solid;
+    border-radius: 20%;
+}
+
+.bloque .logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.cabecera .logo {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.bloque h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#bloquepeliculas {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listado ul {
+    margin: 40px auto;
+}
+
+.listado ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.listado ul li a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.listado ul li a:hover {
+    color: white;
+}
+
+.loading img {
+    display: block;
+    margin: 20px auto;
+}
+
+.datosbasicos {
+    margin: 40px 50px;
+}
+
+.datosbasicos h1 {
+    color: lightblue;
+    margin: 20px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listadosecond {
+    width: 18%;
+    border: 2px red solid;
+    border-radius: 20%;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+    float:left;
+}
+
+.listadosecond h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    margin-left: auto;
+    margin-right: auto;
+}
